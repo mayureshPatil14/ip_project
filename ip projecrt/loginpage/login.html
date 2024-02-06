@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height:800px ;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            overflow-y: hidden;
+            
+
+
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            color: blue;
+            transform: translateY(300px);
+        }
+        .box h1{
+            padding: 10px;
+        }
+        .box .username{
+            padding: 10px;
+            width: 100%;
+        }
+        .box .pass{
+            padding: 10px;
+        }
+        .box .submit{
+            padding: 10px;
+        }
+        .submit button{
+            width: 100px;
+
+            
+        }
+        .submit button:hover{
+            animation-name: ballu;
+            animation-duration: 1s;
+            animation-delay: 0ms;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes ballu{
+            0%{
+                
+                background-color: blue;
+            }
+            50%{
+                
+                background-color: aqua;
+            }
+        }
+
+        /* .submit button{
+            animation;
+        }
+        */
+        
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <div>
+            <h1>Login</h1>
+        </div>  
+        <div class="username">
+            <input type="text" placeholder="username">
+        </div>  
+        <div class="pass">
+            <input type="password" placeholder="password">
+        </div>   
+        <div class="submit">
+            <button type="submit">login</button>
+        </div>
+        
+    </div>
+</div>
+    
+</body>
+</html>

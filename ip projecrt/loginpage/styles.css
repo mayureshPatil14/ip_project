@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container .navbar{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color:  #aad69c;
+    gap: 30px;
+    
+}
+
+    
